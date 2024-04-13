@@ -1,1 +1,9 @@
 .venv
+bash_log/*
+!bash_log/.gitkeep
+results_img/*
+!results_img/.gitkeep
+results_log/*
+!results_log/.gitkeep
+scripts/*
+!scripts/.gitkeep
