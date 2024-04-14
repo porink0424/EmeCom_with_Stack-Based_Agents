@@ -7,3 +7,4 @@ results_log/*
 !results_log/.gitkeep
 scripts/*
 !scripts/.gitkeep
+poetry.lock
