@@ -9,10 +9,8 @@ def set_env():
 
         for key, value in env.items():
             os.environ[key] = value
-
-        print(f"Env is imported: {env}")
     except Exception as e:
         if isinstance(e, FileNotFoundError):
-            print("Env file is not found.")
+            pass
         else:
-            print(f"Error: {e}")
+            print(e)
