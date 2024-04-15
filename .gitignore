@@ -8,3 +8,5 @@ results_log/*
 scripts/*
 !scripts/.gitkeep
 poetry.lock
+
+env.json
