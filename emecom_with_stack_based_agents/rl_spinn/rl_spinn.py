@@ -21,7 +21,15 @@ class RlSpinnOutput:
 
 
 class RlSpinnBase(nn.Module):
-    def __init__(self):
+    def __init__(
+        self,
+        D_vec: int,
+        D_tracking: int,
+        max_length: int,
+        vocab_size: int,
+        child_sum_mode: bool,
+        device: torch.device,
+    ):
         super().__init__()  # type: ignore
 
     def forward(
