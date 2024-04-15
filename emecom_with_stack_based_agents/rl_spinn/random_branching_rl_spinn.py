@@ -19,7 +19,14 @@ class RandomBranchingRlSpinn(RlSpinnBase):
         child_sum_mode: bool,
         device: torch.device,
     ):
-        super().__init__()  # type: ignore
+        super().__init__(
+            D_vec=D_vec,
+            D_tracking=D_tracking,
+            max_length=max_length,
+            vocab_size=vocab_size,
+            child_sum_mode=child_sum_mode,
+            device=device,
+        )
 
         self.D_vec = D_vec
         self.D_tracking = D_tracking
