@@ -51,7 +51,6 @@ class ReceiverOutput:
 
 
 class Sender(nn.Module):
-    # TODO: add cell variations
     def __init__(
         self,
         encoder: SenderEncoderBase,
