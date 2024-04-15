@@ -1,0 +1,3 @@
+SHIFT = 0
+REDUCE = 1
+SKIP = 2
