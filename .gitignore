@@ -11,4 +11,8 @@ scripts/*
 !scripts/.gitkeep
 poetry.lock
 
+emecom_with_stack_based_agents/analysis/*
+!emecom_with_stack_based_agents/analysis/average_and_visalize.py
+
 env.json
+memo.md
